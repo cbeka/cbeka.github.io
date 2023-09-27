@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+section#nav-bar{
+	background-color: lightblue;
+	padding:5px;
+}
+
+.nav{
+	display: flex;
+	color: grey;
+}
+
+.nav-one{
+	margin-left: 100px;
+}
+
+h1{
+	margin-bottom: 10px;
+	font-size: 40px;
+	color: darkblue;
+}
+
+p1{
+	margin-right: 60px;
+}
+
+.list ul{
+	display: flex;
+	list-style: none;
+	margiin-left: 500px;
+	padding: 10px;
+	font-size: 20px;
+
+}
+
+.abo{
+	margin-left: 40px;
+}
+.dog{
+	margin-left: 40px;
+}
+.bre{
+	margin-left: 40px;
+}
+.vol{
+	margin-left: 40px;
+}
+.ado{
+	margin-left: 40px;
+}
+.cont{
+	margin-left: 40px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.button{
+	margin-top: 30px 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 70px;
+	padding: 30px;
+	height: 0px;
+	padding-top: 10px;
+	margin-top: 20px;
+
+}
