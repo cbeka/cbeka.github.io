@@ -1,0 +1,185 @@
+/*font
+"tilden-sans-variable", sans-serif;
+"megabase", sans-serif
+
+*/
+ 
+
+/*colors
+
+blue #2D8680
+purple #44297A
+
+*/
+
+
+
+/*-------Nav----*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right, #2D8680, #44297A);
+	padding: 20 !important;
+}
+.navbar-brand img{
+	height: 30px;
+	padding-left: 30px;
+}
+.navbar-nav li{
+	padding: 0 20px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: right;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler{
+	outline:none !important;
+}
+
+/*------banner section-----*/
+
+#banner{
+	background-image: linear-gradient(to right, #2D8680, #44297A);
+	color: #fff;
+	padding-top: 5%;
+}
+
+#banner img{
+	transition: transform 0.3s;
+
+}
+#banner img:hover{
+        transform: scale(1.05); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.promo-title{
+	font-size: 80px;
+	font-family: "megabase", sans-serif;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+
+
+/*-----services section-----*/
+
+#services{
+	padding: 80px 0;
+}
+.service-img{
+	width:100px;
+	margin-top: 20px;
+}
+.services{
+	padding: 20px;
+
+}
+.services h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title::before{
+	content: '';
+	background: #2D8680;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title::after{
+	content: '';
+	background: #2D8680;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+#services .btn-primary{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #2D8680, #44297A);
+}
+#services .btn-primary:hover{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #44297A, #2D8680);
+}
+/*-----social media-----*/
+#social-media{
+	background: #44297A;
+	padding: 20px 0;
+
+}
+.social-icons img{
+	width: 25px;
+	transition: .1s;
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+
+/*-----footer-----*/
+
+#footer{
+	background-image: linear-gradient(to right, #2D8680, #44297A);
+}
+
+.footer-box{
+	padding: 5px;
+}
+
+.footer-box img{
+	width: 120px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

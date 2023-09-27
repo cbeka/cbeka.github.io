@@ -1,0 +1,158 @@
+/* styles.css */
+
+body {
+    font-family: GrindelGrove;
+    margin: 0;
+    padding: 0;
+    background-color: #DDB998;
+
+}
+
+.btn {
+  margin: 0 auto;
+  width: 170px;
+  height: 60px;
+  padding: 6px 0 0 3px;
+  border: 2px solid #e6e6e6;
+  border-radius: 2px;
+  background: none;
+  font-size: 16px;
+  line-height: 54px;
+  color: #fff;
+  letter-spacing: .25em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
+  cursor: pointer;z-index: 10000;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+}
+
+.btn:hover {
+  background: #e6e6e6;
+  color: #10151B;
+}
+
+header {
+    background-color: #321114;
+    font-family: Shlop, regular;
+    font-size: 20px;
+    color: #F4E8DD;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    color: #232A0E;
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+    color: #7E2A2D;
+    position: center;
+}
+
+a{
+    color: #7E2A2D;
+    text-decoration: none;
+}
+
+a:hover{ /*makes link change colors*/
+    color: #3CB46E;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #8E522F;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: GrindelGrove;
+    flex: 1;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-card {
+    border: 3px solid #7E2A2D;
+    padding: 10px;
+    text-align: center;
+}
+
+img#skeleton{
+    width: 100%;
+    float: none;
+    opacity: 1;
+    position: visible; /*you can now give it a reference point*/
+    background-position: center;
+    top: 400px; 
+    mix-blend-mode: darken;
+
+}
+img#skeleton:hover{
+    opacity: 0.1;
+    transition: 3s;
+}
+
+img{
+    width: 50%;
+    position: relative;
+    float: right;
+}
+
+
+
+footer {
+    background-color: #A45A37;
+    color:#F4E8DD;
+    text-align: center;
+    padding: 10px 0;
+}
